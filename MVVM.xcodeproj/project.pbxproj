@@ -14,6 +14,16 @@
 		67651EA529A5E945005E1C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67651EA429A5E945005E1C17 /* Assets.xcassets */; };
 		67651EA829A5E945005E1C17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67651EA629A5E945005E1C17 /* LaunchScreen.storyboard */; };
 		67651EAB29A5E945005E1C17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67651EAA29A5E945005E1C17 /* main.m */; };
+		67651EB429A5EA1A005E1C17 /* TableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67651EB329A5EA1A005E1C17 /* TableViewModel.m */; };
+		67651EB729A5EA35005E1C17 /* TableViewSectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67651EB629A5EA35005E1C17 /* TableViewSectionModel.m */; };
+		67651EBA29A5EA45005E1C17 /* TableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67651EB929A5EA45005E1C17 /* TableViewCellModel.m */; };
+		67651EC029A5F48A005E1C17 /* TableViewHeaderFooterViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67651EBF29A5F48A005E1C17 /* TableViewHeaderFooterViewModel.m */; };
+		67651EC529A600EA005E1C17 /* GameHotspotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 67651EC329A600EA005E1C17 /* GameHotspotCell.m */; };
+		67651EC629A600EA005E1C17 /* GameHotspotCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 67651EC429A600EA005E1C17 /* GameHotspotCell.xib */; };
+		67651EC929A600FF005E1C17 /* GameHotspotCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67651EC829A600FF005E1C17 /* GameHotspotCellModel.m */; };
+		67651ECB29A61A2F005E1C17 /* list.json in Resources */ = {isa = PBXBuildFile; fileRef = 67651ECA29A61A2F005E1C17 /* list.json */; };
+		67651ECE29A61A51005E1C17 /* HomeListServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 67651ECD29A61A51005E1C17 /* HomeListServer.m */; };
+		67651ED229A61CAE005E1C17 /* GameHotspotModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 67651ED129A61CAE005E1C17 /* GameHotspotModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +39,25 @@
 		67651EA729A5E945005E1C17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		67651EA929A5E945005E1C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67651EAA29A5E945005E1C17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67651EB229A5EA1A005E1C17 /* TableViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewModel.h; sourceTree = "<group>"; };
+		67651EB329A5EA1A005E1C17 /* TableViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewModel.m; sourceTree = "<group>"; };
+		67651EB529A5EA35005E1C17 /* TableViewSectionModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewSectionModel.h; sourceTree = "<group>"; };
+		67651EB629A5EA35005E1C17 /* TableViewSectionModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewSectionModel.m; sourceTree = "<group>"; };
+		67651EB829A5EA45005E1C17 /* TableViewCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCellModel.h; sourceTree = "<group>"; };
+		67651EB929A5EA45005E1C17 /* TableViewCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCellModel.m; sourceTree = "<group>"; };
+		67651EBD29A5F336005E1C17 /* ViewModelEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewModelEnum.h; sourceTree = "<group>"; };
+		67651EBE29A5F48A005E1C17 /* TableViewHeaderFooterViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewHeaderFooterViewModel.h; sourceTree = "<group>"; };
+		67651EBF29A5F48A005E1C17 /* TableViewHeaderFooterViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewHeaderFooterViewModel.m; sourceTree = "<group>"; };
+		67651EC229A600EA005E1C17 /* GameHotspotCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameHotspotCell.h; sourceTree = "<group>"; };
+		67651EC329A600EA005E1C17 /* GameHotspotCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameHotspotCell.m; sourceTree = "<group>"; };
+		67651EC429A600EA005E1C17 /* GameHotspotCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GameHotspotCell.xib; sourceTree = "<group>"; };
+		67651EC729A600FF005E1C17 /* GameHotspotCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameHotspotCellModel.h; sourceTree = "<group>"; };
+		67651EC829A600FF005E1C17 /* GameHotspotCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameHotspotCellModel.m; sourceTree = "<group>"; };
+		67651ECA29A61A2F005E1C17 /* list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = list.json; sourceTree = "<group>"; };
+		67651ECC29A61A51005E1C17 /* HomeListServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeListServer.h; sourceTree = "<group>"; };
+		67651ECD29A61A51005E1C17 /* HomeListServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeListServer.m; sourceTree = "<group>"; };
+		67651ED029A61CAE005E1C17 /* GameHotspotModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameHotspotModel.h; sourceTree = "<group>"; };
+		67651ED129A61CAE005E1C17 /* GameHotspotModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameHotspotModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,19 +90,78 @@
 		67651E9729A5E944005E1C17 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				67651ECF29A61CA3005E1C17 /* Model */,
+				67651EC129A60045005E1C17 /* CellAndCellModel */,
+				67651EBB29A5F314005E1C17 /* ViewModelBase */,
 				67651E9829A5E944005E1C17 /* AppDelegate.h */,
 				67651E9929A5E944005E1C17 /* AppDelegate.m */,
 				67651E9B29A5E944005E1C17 /* SceneDelegate.h */,
 				67651E9C29A5E944005E1C17 /* SceneDelegate.m */,
 				67651E9E29A5E944005E1C17 /* ViewController.h */,
 				67651E9F29A5E945005E1C17 /* ViewController.m */,
+				67651ECC29A61A51005E1C17 /* HomeListServer.h */,
+				67651ECD29A61A51005E1C17 /* HomeListServer.m */,
 				67651EA129A5E945005E1C17 /* Main.storyboard */,
+				67651ECA29A61A2F005E1C17 /* list.json */,
 				67651EA429A5E945005E1C17 /* Assets.xcassets */,
 				67651EA629A5E945005E1C17 /* LaunchScreen.storyboard */,
 				67651EA929A5E945005E1C17 /* Info.plist */,
 				67651EAA29A5E945005E1C17 /* main.m */,
 			);
 			path = MVVM;
+			sourceTree = "<group>";
+		};
+		67651EB129A5EA01005E1C17 /* TableViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				67651EB229A5EA1A005E1C17 /* TableViewModel.h */,
+				67651EB329A5EA1A005E1C17 /* TableViewModel.m */,
+				67651EB529A5EA35005E1C17 /* TableViewSectionModel.h */,
+				67651EB629A5EA35005E1C17 /* TableViewSectionModel.m */,
+				67651EB829A5EA45005E1C17 /* TableViewCellModel.h */,
+				67651EB929A5EA45005E1C17 /* TableViewCellModel.m */,
+				67651EBE29A5F48A005E1C17 /* TableViewHeaderFooterViewModel.h */,
+				67651EBF29A5F48A005E1C17 /* TableViewHeaderFooterViewModel.m */,
+			);
+			path = TableViewModel;
+			sourceTree = "<group>";
+		};
+		67651EBB29A5F314005E1C17 /* ViewModelBase */ = {
+			isa = PBXGroup;
+			children = (
+				67651EBC29A5F323005E1C17 /* CollectionViewModel */,
+				67651EB129A5EA01005E1C17 /* TableViewModel */,
+				67651EBD29A5F336005E1C17 /* ViewModelEnum.h */,
+			);
+			path = ViewModelBase;
+			sourceTree = "<group>";
+		};
+		67651EBC29A5F323005E1C17 /* CollectionViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionViewModel;
+			sourceTree = "<group>";
+		};
+		67651EC129A60045005E1C17 /* CellAndCellModel */ = {
+			isa = PBXGroup;
+			children = (
+				67651EC229A600EA005E1C17 /* GameHotspotCell.h */,
+				67651EC329A600EA005E1C17 /* GameHotspotCell.m */,
+				67651EC429A600EA005E1C17 /* GameHotspotCell.xib */,
+				67651EC729A600FF005E1C17 /* GameHotspotCellModel.h */,
+				67651EC829A600FF005E1C17 /* GameHotspotCellModel.m */,
+			);
+			path = CellAndCellModel;
+			sourceTree = "<group>";
+		};
+		67651ECF29A61CA3005E1C17 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				67651ED029A61CAE005E1C17 /* GameHotspotModel.h */,
+				67651ED129A61CAE005E1C17 /* GameHotspotModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +224,8 @@
 				67651EA829A5E945005E1C17 /* LaunchScreen.storyboard in Resources */,
 				67651EA529A5E945005E1C17 /* Assets.xcassets in Resources */,
 				67651EA329A5E945005E1C17 /* Main.storyboard in Resources */,
+				67651ECB29A61A2F005E1C17 /* list.json in Resources */,
+				67651EC629A600EA005E1C17 /* GameHotspotCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,9 +237,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				67651EA029A5E945005E1C17 /* ViewController.m in Sources */,
+				67651ED229A61CAE005E1C17 /* GameHotspotModel.m in Sources */,
 				67651E9A29A5E944005E1C17 /* AppDelegate.m in Sources */,
+				67651EC529A600EA005E1C17 /* GameHotspotCell.m in Sources */,
+				67651EB429A5EA1A005E1C17 /* TableViewModel.m in Sources */,
+				67651EB729A5EA35005E1C17 /* TableViewSectionModel.m in Sources */,
+				67651EC929A600FF005E1C17 /* GameHotspotCellModel.m in Sources */,
+				67651EC029A5F48A005E1C17 /* TableViewHeaderFooterViewModel.m in Sources */,
+				67651EBA29A5EA45005E1C17 /* TableViewCellModel.m in Sources */,
 				67651EAB29A5E945005E1C17 /* main.m in Sources */,
 				67651E9D29A5E944005E1C17 /* SceneDelegate.m in Sources */,
+				67651ECE29A61A51005E1C17 /* HomeListServer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
